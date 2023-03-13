@@ -23,7 +23,7 @@ const ServicesCard = () => {
   const navigation = useNavigation();
   return (
     <View >
-        <ImageBackground style={{height:250}} source={require('../images/fashion.png')}>
+        <ImageBackground resizeMode='cover' source={require('../images/fashion.png')}>
         
         <View style={{height:250, flexDirection:'column', justifyContent:'flex-end', padding:10}}>
         <View>

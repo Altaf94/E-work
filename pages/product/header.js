@@ -62,11 +62,11 @@ const AppHeader = () => {
         {isloading? < BallIndicator size={20} style={{paddingTop:80}} color='white'/> : <ScrollView showsHorizontalScrollIndicator={false}  style={styles.scrolling} horizontal={true}>
           {headerdata?.Services?.map((e,i) => {
             return (
-              <View key={i}>
+              <View key={i} style={{marginRight:20}}>
                 <TouchableOpacity onPress={()=>{{dispatch(Getid(i));dispatch(Getuid(e));navigation.navigate('Explore')}}}>
                   <Image style={styles.logos} source={{uri:`https://saloon123.pythonanywhere.com/media/${e.image}`}}/>
                 </TouchableOpacity>
-                <View style={{flexDirection:'row', justifyContent:'center'}}>
+                <View>
                 <Text style={styles.ScrollViewtext}>{e.service_name}</Text>
                 </View>
                </View>

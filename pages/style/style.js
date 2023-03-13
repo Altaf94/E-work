@@ -103,7 +103,6 @@ export const styles = StyleSheet.create({
       color:'white',
       fontSize:13,
       padding:5,
-      width:120,
       fontWeight:'500', 
       textAlign:'center',
       fontFamily:'Pacifico-Regular'
