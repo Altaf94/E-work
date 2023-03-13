@@ -1,0 +1,1 @@
+ export const MouseMemoirs = "MouseMemoirs-Regular";
